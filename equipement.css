@@ -1,0 +1,117 @@
+::before,
+::after
+    {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #ececec;
+}
+
+nav 
+{ 
+width:100% ;
+height: 70px;
+background: #212121;
+}
+
+nav a{
+    color: #fff;
+    size: 20px;
+    text-decoration:none ;
+    text-transform: uppercase;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+}
+nav li{
+    margin:0 15px ;
+
+}
+/*home*/
+
+.hero{
+    height: 700px;
+    background: black;
+    display: flex;
+    overflow: hidden;
+}
+.equipement-left{
+    position: relative;
+    width: 80%;
+    background: pink;
+    height: 100%;
+    box-shadow: 90px 0 100px;
+}
+.equipement-right{
+    position: relative;
+    width: 80%;
+    background: black;
+    height: 100%;
+    box-shadow: 90px 0 100px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    margin-left: 8vw;
+    white-space: nowrap;
+
+}
+.hero p{
+    color:  purple;
+    width: 600px;
+    font-size: 30px;
+    margin-left: 8vw;
+    line-height: 1.5;
+}
+
+.btn-equipement{
+    display:flex;
+
+}
+.btn-equipement{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 40px;
+    border:1px solid #ff6129;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.btn-equipement:hover{
+    color:#212121;
+    background: purple;
+    transition: all 0.3s ease;
+}
+.b1{
+    margin-left: 8px;
+}
+.b2{
+    margin-left: 10px;
+}
+.equipement-right {
+    
+    width:100%;
+    height: 50%;
+    background-position: 75% 45%;
+  
+}
+
+
